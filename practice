@@ -32,4 +32,7 @@ file_exten=filename.split(".")
 print("extension of file is:",filename[-1])
 
 
+color = ["Red", "Green", "White", "Black"]
+print(color[0],color[-1])
+
 
