@@ -78,3 +78,12 @@ from math import pi
 r=float(input("enter the value of r"))
 v=4/3 *pi* r**3
 print("volume of sphere is=",v)
+
+
+def difference(n):
+    if n <= 17:
+        return 17 - n
+    else:
+        return (n - 17) * 2
+print(difference(22))
+print(difference(14))
