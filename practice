@@ -2,3 +2,8 @@ print("Twinkle, twinkle, little star, \n\tHow I wonder what you are! \n\t\tUp ab
 
 import sys
 print(sys.version)
+
+from datetime import datetime
+
+now = datetime.now()   # Get current date & time
+print("Current date and time:", now)
