@@ -51,3 +51,10 @@ print(sorted.__doc__)
 print(sum.__doc__)
 print(map.__doc__)
 print(filter.__doc__)
+
+
+import calendar
+y = int(input("Input the year : "))
+m = int(input("Input the month : "))
+print(calendar.month(y, m))
+
