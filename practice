@@ -45,4 +45,9 @@ result = int(n) + int(n*2) + int(n*3) + int(n*4)
 print("Result:", result)
 
 
-
+print(abs.__doc__)
+print(len.__doc__)
+print(sorted.__doc__)
+print(sum.__doc__)
+print(map.__doc__)
+print(filter.__doc__)
