@@ -19,7 +19,7 @@ print("Area of the circle is:", area)
 
 f_name=input("Enter first name: ")
 l_name=input("Enter second name: ")
-print("hello",f_name,l_name)
+print("hello",l_name, f_name)
 
 values = input("Input some comma-separated numbers: ")
 list = values.split(",")
@@ -27,6 +27,9 @@ tuple = tuple(list)
 print('List : ', list)
 print('Tuple : ', tuple)
                       
+filename = input("Enter the file name: ")
+file_exten=filename.split(".")
+print("extension of file is:",filename[-1])
 
 
 
