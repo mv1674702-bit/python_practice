@@ -96,3 +96,11 @@ print(near_thousand(900))
 print(near_thousand(800))
 print(near_thousand(2200))
 
+
+def thrice_sum(x,y,z)
+    sum=x+y+z
+    if x==y==z:
+        sum=sum*3
+    return sum    
+
+print(thrice_sum(2,3,4))
