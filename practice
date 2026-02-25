@@ -15,3 +15,9 @@ radius = float(input("Enter the radius: "))
 area = math.pi * radius ** 2
 
 print("Area of the circle is:", area)
+
+import os
+
+filename = input("Enter the file name: ")
+file_exten=filename.split(".")
+print("extension of file is:",filename[-1])
