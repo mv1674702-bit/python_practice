@@ -21,3 +21,10 @@ urlpatterns = [
     path('mansi/', admin.site.urls),
     path('',include('appdev.urls')),
 ]
+
+
+# to handle the upload files
+from django.conf import settings
+from django.conf.urls.static import static
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
